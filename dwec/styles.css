@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenedor{
+    color: red;
+    font-size: 90px;
+    text-align: center;
+    background-color: blueviolet;
+    margin: 100px 400px;
+    padding: 70px;
+}
