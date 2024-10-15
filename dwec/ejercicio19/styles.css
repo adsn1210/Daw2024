@@ -1,0 +1,16 @@
+:root{
+color-scheme: light dark;
+}
+
+body{
+    display: grid;
+    place-content: center;
+}
+
+.cartas{
+   
+    display: grid;
+    place-content: center;
+    grid-column: auto;
+
+}
