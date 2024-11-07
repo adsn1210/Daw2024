@@ -1,0 +1,39 @@
+#container{
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid black;
+
+}
+
+/* Estilos del botón */
+button {
+    margin: 40px;
+    background: linear-gradient(135deg, #6D5BBA, #8F73F2);
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto hover */
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto active (clic) */
+button:active {
+    transform: translateY(0);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.diana{
+    
+    text-align: center;
+}

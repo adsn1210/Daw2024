@@ -1,0 +1,30 @@
+:root {
+  color-scheme: dark light;
+}
+
+body {
+  display: grid;
+  place-content: center;
+}
+
+.dados {
+  display: flex;
+  justify-content: center; /*centra las imagenes horizontalmente*/
+  gap: 20px; /*espacio entre imagenes*/
+}
+
+img {
+  width: 100px; /*tamaño de la imagen*/
+  height: auto;
+}
+
+.jugador1 {
+  border-style: solid;
+  border-radius: 10px ;
+  border-color: green;
+}
+
+.jugador2 {
+  border-color: blue;
+  border-style: solid;
+}
