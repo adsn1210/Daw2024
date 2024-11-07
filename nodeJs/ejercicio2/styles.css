@@ -1,0 +1,17 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.orange {
+    color: rgb(255, 166, 0);
+}
+
+#color {
+    color: rgb(255, 0, 0)
+}
+
+.purp {
+    color: rgb(247, 0, 255);
+}

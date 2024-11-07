@@ -1,0 +1,105 @@
+:root {
+    color-scheme: light dark;
+    --colorPrincipal: rgb(0, 255, 0);
+}
+
+
+body {
+    font-family:'Courier New', Courier, monospace ;    
+    margin: 0;
+
+}
+
+.container {
+    margin: 0px 50px;
+}
+
+/*Parte del Menu*/
+#nav {
+    background-color: lime;
+}
+
+
+/*Botones del Menu*/
+button{
+    background-color: lime;
+    border: none;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+/*Conf del Menu*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+
+}
+
+.menu button  {
+    color: white;
+    padding: 15px 120px;
+
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+
+/*Parrafos*/
+
+p {
+    color: lime;
+    text-align: justify;
+}
+
+p::first-letter {
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+
+/*Conf para el listado*/
+ul {
+    list-style-type: square;
+}
+
+/*Conf Table*/
+table th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 1px;
+}
+
+td{
+    text-align: center;
+    height: 50px;
+    
+}
+
+/*Zebra-striped*/
+tr:nth-child(odd){
+    background-color: lime;
+}
+
+tr:nth-child(6){
+    background-color: lime;
+}
+
+tr:nth-child(6) td {
+    border-top: 12px solid black; /* Solo el borde superior en negro */
+}
+
+
+th{
+    background-color: lime;
+    color: white;
+}
+
+/*nth-child(even): Se aplica a los elementos en posiciones pares (2ª, 4ª, 6ª, etc.).
+nth-child(odd): Se aplica a los elementos en posiciones impares (1ª, 3ª, 5ª, etc.).*/
